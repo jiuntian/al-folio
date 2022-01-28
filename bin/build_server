@@ -7,7 +7,7 @@
 SRC_BRANCH="master"
 DEPLOY_BRANCH="gh-pages"
 
-USAGE_MSG="usage: deploy_server [-h|--help] [-p|--port PORT] [-s|--ssh SSH_USER_HOST]  [-d|--deploy DEPLOY_PATH]"
+USAGE_MSG="usage: deploy_server [-h|--help] [-p|--port PORT] [-s|--ssh SSH_USER_HOST] [--password PASSWORD] [-d|--deploy DEPLOY_PATH]"
 
 while [[ $# > 0 ]]; do
     key="$1"
@@ -26,6 +26,10 @@ while [[ $# > 0 ]]; do
         ;;
         -d|--deploy)
         DEPLOY_PATH="$2"
+        shift
+        ;;
+        --password)
+        PASSWORD="$2"
         shift
         ;;
         *)
@@ -59,8 +63,8 @@ rm -R _site/
 rm -R blog/
 
 # Push to DEPLOY_PATH
-scp -rp -P $PORT . $SSH_USER_HOST:$DEPLOY_PATH/
+# scp -rp -P $PORT . $SSH_USER_HOST:$DEPLOY_PATH/
 
-echo "Deployed successfully!"
+echo "Built successfully!"
 
 exit 0

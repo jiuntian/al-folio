@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy server
 
 on:
   push:
@@ -34,7 +34,13 @@ jobs:
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
     - name: Deploy website 
-      run:  yes | bin/deploy_server_no_blog
-                    --port ${SSH_PORT} 
-                    --ssh ${SSH_USER_HOST}
-                    --deplay ${DEPLOY_PATH} 
+      run:  yes | bin/build_server
+    - name: copy file via ssh password
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        source: "."
+        target: ${{ secrets.DEPLOY_PATH }}
