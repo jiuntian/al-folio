@@ -45,3 +45,4 @@ jobs:
         port: ${{ secrets.PORT }}
         source: "."
         target: ${{ secrets.DEPLOY_PATH }}
+        overwrite: true
