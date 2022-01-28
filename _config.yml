@@ -83,7 +83,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: my gossip  # your blog must have a name for it to show up in the nav bar
+# blog_name: my gossip  # your blog must have a name for it to show up in the nav bar
+blog_name:  # disable blog
 blog_description: a small space for my gossip
 permalink: /blog/:year/:title/
 
