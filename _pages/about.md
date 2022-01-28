@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.um.edu.my/'>Uni. of Malaya</a>. Malaysia. jiuntian (at) gmail.com.
+subtitle: <a href='https://www.um.edu.my/'>Uni. of Malaya</a>. Malaysia. jiuntian@gmail.com.
 
 profile:
   align: right
@@ -20,3 +20,5 @@ social: true  # includes social icons at the bottom of the page
 My name is Hoe Jiun Tian (何俊添). I am currently final year Computer Science undergraduate studying in University of Malaya. I am currently doing research in computer vision and deep learning under supervision of Prof Chan Chee Seng.
 
 Before I start my undergraduate studies, I am interested in programming, electronics, 3D printing, and interplay between them. I likes to make some small automation projects that make my life easier.
+
+You can get my latest CV <a href="/assets/pdf/cv.pdf">here</a>.
