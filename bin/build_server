@@ -44,7 +44,7 @@ done
 # Exit if any subcommand fails
 set -e
 
-echo "Deploying..."
+echo "Building..."
 
 read -r -p "Do you want to proceed? [y/N] " response
 if [[ ! $response =~ ^([yY][eE][sS]|[yY])+$ ]]
