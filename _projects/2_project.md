@@ -2,10 +2,12 @@
 layout: page
 title: orthohash
 description: official pytorch implementation for OrthoHash
-img: assets/img/orthohash_animation.gif
+img: assets/img/orthohash.png
 importance: 2
 category: research
 ---
+
+<img width=200px src="/assets/img/orthohash_animation.gif">
 
 The source codes is at: <a href="https://github.com/kamwoh/orthohash">https://github.com/kamwoh/orthohash</a>. Besides, you can also look at my another project: `cisip-fire`, which also have implemented orthohash.
 

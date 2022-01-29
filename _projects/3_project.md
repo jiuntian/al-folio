@@ -11,5 +11,6 @@ The COVID-19 Symptom Monitoring System (CoSMoS) is an automated platform that as
 
 I was involved in developing phase and subsequent maintanence for front end development using React.js framework.
 
-Official website: https://cosmos.care/
-See also: https://www.thestar.com.my/news/nation/2020/04/24/cosmos-um-develops-app-to-monitor-suspected-covid-19-patients
+Official website: <a href="https://cosmos.care/">https://cosmos.care/</a>
+
+See also: <a href="https://www.thestar.com.my/news/nation/2020/04/24/cosmos-um-develops-app-to-monitor-suspected-covid-19-patients">https://www.thestar.com.my/news/nation/2020/04/24/cosmos-um-develops-app-to-monitor-suspected-covid-19-patients</a>
