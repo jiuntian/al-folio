@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.um.edu.my/'>Uni. of Malaya</a>. Malaysia. jiuntian@gmail.com.
+subtitle: <a href='https://www.ntu.edu.sg/'>School of Electrical and Electronic Engineering, NTU</a>. jiuntian@gmail.com - jiuntian001@e.ntu.edu.sg #  <a href='https://www.um.edu.my/'>Uni. of Malaya</a>
 
 profile:
   align: right
@@ -10,14 +10,14 @@ profile:
   address: >
     <!-- <p>555 your office number</p> -->
     <!-- <p>Balik Pulau 11000</p> -->
-    <p>Penang, Malaysia</p>
+    <p>West, Singapore</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Hoe Jiun Tian (何俊添). I am currently final year Computer Science undergraduate studying in University of Malaya and is doing research in computer vision and deep learning under supervision of Prof Chan Chee Seng.
+My name is Hoe Jiun Tian (何俊添). I am currently first year PhD student in Nanyang Technological University, Singapore under supervision of Prof Tan Yap-Peng. In my undergraduate study in University of Malaya, I did research in computer vision and deep learning under supervision of Prof Chan Chee Seng.
 
 Before I start my undergraduate studies, I am interested in programming, electronics, 3D printing, and interplay between them. I likes to make some small automation projects that make my life easier.
 
