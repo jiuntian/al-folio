@@ -7,6 +7,7 @@ subtitle: <a href='https://www.ntu.edu.sg/'>School of Electrical and Electronic 
 profile:
   align: right
   image: avatar.png
+  image_circular: false # crops the image to make it circular
   address: >
     <!-- <p>555 your office number</p> -->
     <!-- <p>Balik Pulau 11000</p> -->
