@@ -5,3 +5,11 @@
 "Chan":
   - firstname: ["C.S.", "Chee Seng"]
     url: "http://cs-chan.com"
+
+"Tan":
+  - firstname: ["Y.P.", "Yap Peng", "Yap-Peng"]
+    url: "https://personal.ntu.edu.sg/eyptan/"
+
+"Jiang":
+  - firstname: ["X.D.", "X.", "Xudong"]
+    url: "https://personal.ntu.edu.sg/exdjiang/"

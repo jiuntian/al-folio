@@ -4,3 +4,5 @@ github_users:
 github_repos:
   - CISiPLab/cisip-FIRe
   - kamwoh/orthohash
+  - jiuntian/interactdiffusion
+  - jiuntian/sd-webui-interactdiffusion
