@@ -81,6 +81,8 @@ jobs:
       run: |
         npm install -g purgecss
         purgecss -c purgecss.config.js
+    - name: Clean and Move files
+      run: yes | bin/move_file
     - name: copy file via ssh password
       uses: appleboy/scp-action@master
       with:
@@ -88,6 +90,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "_site"
+        source: "."
         target: ${{ secrets.DEPLOY_PATH }}
         overwrite: true

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "Moving..."
+
+read -r -p "Do you want to proceed? [y/N] " response
+if [[ ! $response =~ ^([yY][eE][sS]|[yY])+$ ]]
+then
+    echo "Aborting."
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+# Delete and move files
+find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
+mv _site/* .
+rm -R _site/
+rm -R blog/
+rm -R .git/
+
+
+echo "Moved successfully!"
+
+exit 0
