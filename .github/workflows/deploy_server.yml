@@ -88,6 +88,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "./_site/*"
+        source: "_site"
         target: ${{ secrets.DEPLOY_PATH }}
         overwrite: true
