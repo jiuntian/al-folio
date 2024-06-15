@@ -7,12 +7,7 @@
 - title: Reviewer experiences
   type: time_table
   contents:
-  - title:
-      year: 2024
-      description: ECCV'24
-  - title:
-      year: 2023
-      description: CVPR'23, BMVC'23
+  - title: ECCV'24 CVPR'23, BMVC'23
 
 #- title: General Information
 #  type: map
