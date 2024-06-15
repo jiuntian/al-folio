@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ntu.edu.sg/'>School of Electrical and Electronic Engineering, NTU</a>. jiuntian@gmail.com - jiuntian001@e.ntu.edu.sg #  <a href='https://www.um.edu.my/'>Uni. of Malaya</a>
+subtitle: School of Electrical and Electronic Engineering, NTU. jiuntian@gmail.com - jiuntian001@e.ntu.edu.sg #  <a href='https://www.um.edu.my/'>Uni. of Malaya</a>
 
 profile:
   align: right
@@ -22,4 +22,4 @@ My name is Hoe Jiun Tian (何俊添). I am currently second year PhD student in 
 
 <!-- Before I start my undergraduate studies, I am interested in programming, electronics, 3D printing, and interplay between them. I likes to make some small automation projects that make my life easier. -->
 
-You can get my <s>latest</s> not up-to-date CV <a href="/assets/pdf/cv.pdf">here</a>.
+<!-- You can get my <s>latest</s> not up-to-date CV <a href="/assets/pdf/cv.pdf">here</a>. -->
