@@ -5,37 +5,82 @@ on:
     branches:
       - master
       - main
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
   pull_request:
     branches:
       - master
       - main
-  
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/broken-links.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+      - "!CONTRIBUTING.md"
+      - "!CUSTOMIZE.md"
+      - "!FAQ.md"
+      - "!INSTALL.md"
+      - "!README.md"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
-    - name: Enable bundler cache
-      uses: actions/cache@v2
+        ruby-version: "3.2.2"
+        bundler-cache: true
+    - name: Update _config.yml ⚙️
+      uses: fjogeleit/yaml-update-action@main
       with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    - name: Install deps
+        commitChange: false
+        valueFile: "_config.yml"
+        propertyPath: "giscus.repo"
+        value: ${{ github.repository }}
+    - name: Install and Build 🔧
       run: |
-        gem install bundler
-        bundle config path vendor/bundle
-        bundle install --jobs 4 --retry 3
-        npm install -g mermaid.cli
-    - name: Deploy website 
-      run:  yes | bin/build_server
+        pip3 install --upgrade jupyter
+        export JEKYLL_ENV=production
+        bundle exec jekyll build
+    - name: Purge unused CSS 🧹
+      run: |
+        npm install -g purgecss
+        purgecss -c purgecss.config.js
     - name: copy file via ssh password
       uses: appleboy/scp-action@master
       with:
