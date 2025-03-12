@@ -1,6 +1,8 @@
 github_users:
   - jiuntian
 
+repo_description_lines_max: 2
+
 github_repos:
   - CISiPLab/cisip-FIRe
   - kamwoh/orthohash
