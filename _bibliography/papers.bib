@@ -3,22 +3,35 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{orthohash2021,
-  abbr={NeurIPS},
+@inproceedings{interactdiffusion2024,
+  abbr={CVPR},
   bibtex_show={true},
-  title={One Loss for All: Deep Hashing with a Single Cosine Similarity based Learning Objective},
-  author={Hoe, Jiun Tian and Ng, Kam Woh and Zhang, Tianyu and Chan, Chee Seng and Song, Yi-Zhe and Xiang, Tao},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2021},
-  abs={A deep hashing model typically has two main learning objectives: to make the learned binary hash codes discriminative and to minimize a quantization error. With further constraints such as bit balance and code orthogonality, it is not uncommon for existing models to employ a large number (>4) of losses. This leads to difficulties in model training and subsequently impedes their effectiveness. In this work, we propose a novel deep hashing model with only . Specifically,  we show that maximizing the cosine similarity between the continuous codes and their corresponding  can ensure both hash code discriminativeness and quantization error minimization. Further, with this learning objective, code balancing can be achieved by simply using a  Batch Normalization (BN) layer and multi-label classification is also straightforward with label smoothing. The result is a one-loss deep hashing model that removes all the hassles of tuning the weights of various losses. Importantly,  extensive experiments show that our model is highly effective, outperforming the state-of-the-art multi-loss hashing models on three large-scale instance retrieval benchmarks, often by significant margins. },
-  url={https://proceedings.neurips.cc/paper/2021/hash/cbcb58ac2e496207586df2854b17995f-Abstract.html},
-  html={https://proceedings.neurips.cc/paper/2021/hash/cbcb58ac2e496207586df2854b17995f-Abstract.html},
-  code={https://github.com/kamwoh/orthohash},
-  pdf={orthohash.pdf},
-  preview={brownian-motion.gif}
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  title={InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models},
+  author={Jiun Tian Hoe and Xudong Jiang and Chee Seng Chan and Yap-Peng Tan and Weipeng Hu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024},
+  abs={Large-scale text-to-image (T2I) diffusion models have showcased incredible capabilities in generating coherent images based on textual descriptions, enabling vast applications in content generation. While recent advancements have introduced control over factors such as object localization, posture, and image contours, a crucial gap remains in our ability to control the interactions between objects in the generated content. Well-controlling interactions in generated images could yield meaningful applications, such as creating realistic scenes with interacting characters. In this work, we study the problems of conditioning T2I diffusion models with Human-Object Interaction (HOI) information, consisting of a triplet label (person, action, object) and corresponding bounding boxes. We propose a pluggable interaction control model, called InteractDiffusion that extends existing pre-trained T2I diffusion models to enable them being better conditioned on interactions. Specifically, we tokenize the HOI information and learn their relationships via interaction embeddings. A conditioning self-attention layer is trained to map HOI tokens to visual tokens, thereby conditioning the visual tokens better in existing T2I diffusion models. Our model attains the ability to control the interaction and location on existing T2I diffusion models, which outperforms existing baselines by a large margin in HOI detection score, as well as fidelity in FID and KID. Project page: https://jiuntian.github.io/interactdiffusion.},
+  url={https://arxiv.org/pdf/2312.05849.pdf},
+  html={https://jiuntian.github.io/interactdiffusion/},
+  code={https://github.com/jiuntian/interactdiffusion},
+  pdf={https://openaccess.thecvf.com/content/CVPR2024/papers/Hoe_InteractDiffusion_Interaction_Control_in_Text-to-Image_Diffusion_Models_CVPR_2024_paper.pdf},
+  preview={cvpr2024.png},
+  google_scholar_id={Tyk-4Ss8FVUC},
+  video={https://www.youtube.com/watch?v=Uunzufq8m6Y},
   selected={true}
+}
+
+@article{xie2024residual,
+  title={Residual Quotient Learning for Zero-Reference Low-Light Image Enhancement},
+  author={Xie, Chao and Fei, Linfeng and Tao, Huanjie and Hu, Yaocong and Zhou, Wei and Hoe, Jiun Tian and Hu, Weipeng and Tan, Yap-Peng},
+  journal={IEEE Transactions on Image Processing},
+  year={2024},
+  publisher={IEEE},
+  abbr={TIP},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/abstract/document/10815017/},
+  google_scholar_id={_FxGoFyzp5QC},
+  preview={rql-tip24.png},
 }
 
 @inproceedings{sdc2023,
@@ -33,21 +46,25 @@
   html={https://arxiv.org/abs/2302.07669},
   code={https://github.com/kamwoh/sdc},
   pdf={sdc_bmvc2023.pdf},
-  selected={true}
+  preview={BMVC2023.png},
+  google_scholar_id={zYLM7Y9cAGgC},
+  selected={false}
 }
 
-@inproceedings{interactdiffusion2024,
-  abbr={CVPR},
+@inproceedings{orthohash2021,
+  abbr={NeurIPS},
   bibtex_show={true},
-  title={InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models},
-  author={Jiun Tian Hoe and Xudong Jiang and Chee Seng Chan and Yap-Peng Tan and Weipeng Hu},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2024},
-  abs={Large-scale text-to-image (T2I) diffusion models have showcased incredible capabilities in generating coherent images based on textual descriptions, enabling vast applications in content generation. While recent advancements have introduced control over factors such as object localization, posture, and image contours, a crucial gap remains in our ability to control the interactions between objects in the generated content. Well-controlling interactions in generated images could yield meaningful applications, such as creating realistic scenes with interacting characters. In this work, we study the problems of conditioning T2I diffusion models with Human-Object Interaction (HOI) information, consisting of a triplet label (person, action, object) and corresponding bounding boxes. We propose a pluggable interaction control model, called InteractDiffusion that extends existing pre-trained T2I diffusion models to enable them being better conditioned on interactions. Specifically, we tokenize the HOI information and learn their relationships via interaction embeddings. A conditioning self-attention layer is trained to map HOI tokens to visual tokens, thereby conditioning the visual tokens better in existing T2I diffusion models. Our model attains the ability to control the interaction and location on existing T2I diffusion models, which outperforms existing baselines by a large margin in HOI detection score, as well as fidelity in FID and KID. Project page: https://jiuntian.github.io/interactdiffusion.},
-  url={https://arxiv.org/pdf/2312.05849.pdf},
-  html={https://jiuntian.github.io/interactdiffusion/},
-  code={https://github.com/jiuntian/interactdiffusion},
-  pdf={https://openaccess.thecvf.com/content/CVPR2024/papers/Hoe_InteractDiffusion_Interaction_Control_in_Text-to-Image_Diffusion_Models_CVPR_2024_paper.pdf},
+  title={One Loss for All: Deep Hashing with a Single Cosine Similarity based Learning Objective},
+  author={Hoe, Jiun Tian and Ng, Kam Woh and Zhang, Tianyu and Chan, Chee Seng and Song, Yi-Zhe and Xiang, Tao},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2021},
+  abs={A deep hashing model typically has two main learning objectives: to make the learned binary hash codes discriminative and to minimize a quantization error. With further constraints such as bit balance and code orthogonality, it is not uncommon for existing models to employ a large number (>4) of losses. This leads to difficulties in model training and subsequently impedes their effectiveness. In this work, we propose a novel deep hashing model with only . Specifically,  we show that maximizing the cosine similarity between the continuous codes and their corresponding  can ensure both hash code discriminativeness and quantization error minimization. Further, with this learning objective, code balancing can be achieved by simply using a  Batch Normalization (BN) layer and multi-label classification is also straightforward with label smoothing. The result is a one-loss deep hashing model that removes all the hassles of tuning the weights of various losses. Importantly,  extensive experiments show that our model is highly effective, outperforming the state-of-the-art multi-loss hashing models on three large-scale instance retrieval benchmarks, often by significant margins. },
+  url={https://proceedings.neurips.cc/paper/2021/hash/cbcb58ac2e496207586df2854b17995f-Abstract.html},
+  html={https://proceedings.neurips.cc/paper/2021/hash/cbcb58ac2e496207586df2854b17995f-Abstract.html},
+  code={https://github.com/kamwoh/orthohash},
+  pdf={orthohash.pdf},
+  preview={orthohash.gif},
+  google_scholar_id={qjMakFHDy7sC},
+  video={https://papertalk.org/papertalks/36253},
   selected={true}
 }
-

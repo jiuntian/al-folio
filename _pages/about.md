@@ -22,12 +22,12 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Hoe Jiun Tian (何俊添). I am currently second year PhD student in Nanyang Technological University, Singapore under supervision of Prof Tan Yap Peng and Prof Jiang Xudong. Previously, I did research in computer vision and deep learning under supervision of Prof Chan Chee Seng in my undergraduate study in University of Malaya,.
+My name is Hoe Jiun Tian (何俊添). I am currently second year PhD student in Nanyang Technological University, Singapore under supervision of [Prof Tan Yap Peng](https://personal.ntu.edu.sg/eyptan/) and [Prof Jiang Xudong](https://personal.ntu.edu.sg/exdjiang/). Previously, I did research in computer vision and deep learning under supervision of Prof Chan Chee Seng in my undergraduate study in University of Malaya.
 
 <!-- Before I start my undergraduate studies, I am interested in programming, electronics, 3D printing, and interplay between them. I likes to make some small automation projects that make my life easier. -->
 
