@@ -49,6 +49,6 @@ Here are the stepper motors connected to Arduino, prepared to sing to me. Four m
 
 {% include video.liquid path="https://www.youtube.com/embed/bULEc7-MSRg" class="img-fluid rounded z-depth-1" caption="Playing Super Mario Theme song on the stepper" %}
 
-The journey doesn't end here, stepper music sound interesting, but it still missing something, why not we play the songs with more instruments? The [Tesla coil](http://jiuntian.com/blog/index.php/2019/07/12/fun-with-tesla-coil-with-explanation/) (refer my previous blog post) are a great candidates too :D. This time, I managed to ask one of my friends to enrich the stepper music with her mesmerising piano, is this consider an extra bonus for this week post? Hope you like it.
+The journey doesn't end here, stepper music sound interesting, but it still missing something, why not we play the songs with more instruments? The [Tesla coil](http://jiuntian.com/blog/2019/tesla-coil/) (refer my previous blog post) are a great candidates too :D. This time, I managed to ask one of my friends to enrich the stepper music with her mesmerising piano, is this consider an extra bonus for this week post? Hope you like it.
 
 {% include video.liquid path="https://www.youtube.com/embed/FqcIFr44CwU" class="img-fluid rounded z-depth-1" caption="Playing Super Mario Theme song on the stepper" %}
