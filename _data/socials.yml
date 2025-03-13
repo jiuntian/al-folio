@@ -5,7 +5,7 @@
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-dblp_url: https://dblp.org/pid/303/0575.html # your DBLP profile url
+# dblp_url: https://dblp.org/pid/303/0575.html # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: jiuntian@gmail.com # your email address
 # facebook_id: # your facebook id
@@ -23,13 +23,13 @@ ieee_id: 988319366612165 # your ieeexplore.ieee.org/author/id
 linkedin_username: jiuntian # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: 0000-0002-3232-2640# your ORCID ID
+orcid_id: 0000-0002-3232-2640 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-research_gate_profile: Jiun-Tian-Hoe # your profile on ResearchGate
-rss_icon: false # set to true to show the RSS icon
+# research_gate_profile: Jiun-Tian-Hoe # your profile on ResearchGate
+# rss_icon: false # set to true to show the RSS icon
 scholar_userid: h0HsHVkAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID

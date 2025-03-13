@@ -1,15 +1,15 @@
-"Ng":
+"ng":
   - firstname: ["K.W.", "Kam Woh"]
     url: https://kamwoh.github.io
 
-"Chan":
+"chan":
   - firstname: ["C.S.", "Chee Seng"]
-    url: "http://cs-chan.com"
+    url: http://cs-chan.com
 
-"Tan":
+"tan":
   - firstname: ["Y.P.", "Yap Peng", "Yap-Peng"]
-    url: "https://personal.ntu.edu.sg/eyptan/"
+    url: https://personal.ntu.edu.sg/eyptan/
 
-"Jiang":
+"jiang":
   - firstname: ["X.D.", "X.", "Xudong"]
-    url: "https://personal.ntu.edu.sg/exdjiang/"
+    url: https://personal.ntu.edu.sg/exdjiang/
