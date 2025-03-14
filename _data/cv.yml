@@ -66,16 +66,14 @@ cv:
         doi: https://doi.org/10.1002/andp.19053221004
         journal: "[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)"
         summary: "It concerned an interpretation of the [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-      - title: "\xDCber einen die Erzeugung und Verwandlung des Lichtes betreffenden\
-          \ heuristischen Gesichtspunkt"
+      - title: "ber einen die Erzeugung und Verwandlung des Lichtes betreffendenheuristischen Gesichtspunkt"
         authors: []
         date: "1905-03-18"
-        url: "https://de.wikisource.org/wiki/\xDCber_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt"
+        # url: "https://de.wikisource.org/wiki/\xDCber_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt"
       - title: "Die Grundlage der allgemeinen Relativit\xE4tstheorie"
         authors: []
         date: "1916-03-20"
-        url: "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativit\xE4\
-          tstheorie"
+        # url: "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativittstheorie"
     volunteering:
       - company: "People's Climate March"
         position: Lead Organizer
