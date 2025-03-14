@@ -27,4 +27,5 @@ jobs:
       with:
         file: "_data/cv.yml"
         mode: "lax"
-    
+        schema: "rendercv-schema.json"
+        fixSchemas: true
