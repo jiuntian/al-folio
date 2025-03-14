@@ -39,7 +39,7 @@
         <td class="p-1 pr-2 font-weight-bold">
           <b>Summary</b>
         </td>
-        <td class="p-1 pl-2 font-weight-light text">{{ cv.sections.summary }}</td>
+        <td class="p-1 pl-2 font-weight-light text">{{ cv.sections.summary | join: " " | markdownify }}</td>
       </tr>
     {% endif %}
   </table>
