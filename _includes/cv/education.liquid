@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign education = entry[1] | sort: 'entry.start_date' | reverse %}
+  {% assign education = entry[1] | sort: 'start_date' | reverse %}
   {% for content in education %}
     <li class="list-group-item">
       <div class="row">
