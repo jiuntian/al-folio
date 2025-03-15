@@ -19,7 +19,7 @@
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.title }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">{{ content.authors[] | join: ", " | markdownify }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">{{ content.authors[] | join: ", " | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic; font-weight: bold">
             {{ content.journal | markdownify | remove: '<p>' | remove: '</p>' }}
           </h6>
