@@ -120,6 +120,14 @@ layout: default
                   {% include cv/certificates.liquid %}
                 </div>
               </div>
+            {% else %}
+                <a class="anchor" id="{{ entry[0] }}"></a>
+                <div class="card mt-3 p-3">
+                    <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                    <div>
+                        {% include cv/work.liquid %}
+                    </div>
+                </div>
             {% endif %}
           {% endunless %}
         {% endfor %}
