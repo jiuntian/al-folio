@@ -14,11 +14,13 @@
           {% endif %}
           <table class="table-cv">
             <tbody>
+              {% if content.start_date or content.end_date %}
               <tr>
                 <td>
                   <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
                 </td>
               </tr>
+              {% endif %}
               {% if content.location %}
                 <tr>
                   <td>
