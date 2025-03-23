@@ -9,7 +9,7 @@ disqus_comments: true
 thumbnail: assets/img/030819/WhatsApp-Image-2019-08-03-at-16.48.53.jpeg
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/030819/WhatsApp-Image-2019-08-03-at-16.48.53.jpeg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" max-width=640 width=560 path="assets/img/030819/WhatsApp-Image-2019-08-03-at-16.48.53.jpeg" class="img-fluid rounded z-depth-1" %}
 
 ## 1\. Introduction
 
@@ -21,44 +21,44 @@ thumbnail: assets/img/030819/WhatsApp-Image-2019-08-03-at-16.48.53.jpeg
 
 To create 3d printing timelapse, you have two options, first is to use a DSLR and a remote shutter. Let the shutter connected to the 3d printer controller board, and trigger the shutter for every layer change. The wiring can refer to the diagram below:
 
-{% include figure.liquid loading="eager" path="assets/img/030819/lumix_remote.png" class="img-fluid rounded z-depth-1" caption="How 2.5mm remote shutter jack works" %}
+{% include figure.liquid loading="eager" max-width=640 width=560 path="assets/img/030819/lumix_remote.png" class="img-fluid rounded z-depth-1" caption="How 2.5mm remote shutter jack works" %}
 
-{% include figure.liquid loading="eager" path="assets/img/030819/scheme.jpg" class="img-fluid rounded z-depth-1" caption="Let 5V be the trigger signal" %}
+{% include figure.liquid loading="eager" max-width=640 width=560 path="assets/img/030819/scheme.jpg" class="img-fluid rounded z-depth-1" caption="Let 5V be the trigger signal" %}
 
 Second option is use timelapse feature that included in OctoPrint. This feature is very user-friendly, and only took seconds to set up. You may use raspberry pi camera or USB webcam. Just hook up your camera and we are ready to go for next step.
 
-{% include figure.liquid loading="eager" path="assets/img/030819/Screenshot-2019-08-03-at-4.44.19-PM.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" max-width=640 width=560 path="assets/img/030819/Screenshot-2019-08-03-at-4.44.19-PM.png" class="img-fluid rounded z-depth-1" %}
 
 In OctoPrint interface, go to `Timelapse` tab and choose your preferred configuration and then finally `Save changes`. Timelapse will be automatically created when next time you started your printing.
 
 ## 3\. Results and Discussion
 
-{% include video.liquid path="assets/video/030819/slow.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+{% include video.liquid path="assets/video/030819/slow.mp4" class="rounded z-depth-1" controls=true max-width="540px"%}
 
 This is part of how 3D printing is printing the object, look at that, how slow it is, "confirm no one want to watch la". So here come the timelapse :D
 
-{% include video.liquid path="https://www.youtube.com/embed/0tVyaLef6DM" class="img-fluid rounded z-depth-1" caption="A bit shaky because I forgot to fix the camera" %}
+{% include video.liquid path="https://www.youtube.com/embed/0tVyaLef6DM" class="rounded z-depth-1" caption="A bit shaky because I forgot to fix the camera" %}
 
 This 1 minute short video is actually 4 hours behind the scene. After four hours of waiting, and finally the results is done, and it is satisfied.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/030819/minion1.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" max-width=640 width=560 path="assets/img/030819/minion1.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/030819/minion2.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" max-width=640 width=560 path="assets/img/030819/minion2.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 But today I not just going to share only one timelapse video, please don't leave and watch the video below.
 
-{% include video.liquid path="https://www.youtube.com/embed/H5DrHsOBjAM" class="img-fluid rounded z-depth-1" caption="This is Kumamon and it took nearly 7 hours." %}
+{% include video.liquid path="https://www.youtube.com/embed/H5DrHsOBjAM" class="rounded z-depth-1" caption="This is Kumamon and it took nearly 7 hours." %}
 
-{% include figure.liquid loading="eager" path="assets/img/030819/WhatsApp-Image-2019-08-03-at-16.48.51.jpeg" class="img-fluid rounded z-depth-1" caption="This is the final result after removed the support structures. Looks stupid and cute?." %}
+{% include figure.liquid loading="eager" max-width=640 width=560 path="assets/img/030819/WhatsApp-Image-2019-08-03-at-16.48.51.jpeg" class="img-fluid rounded z-depth-1" caption="This is the final result after removed the support structures. Looks cute?." %}
 
 There is one more video.
 
-{% include video.liquid path="https://www.youtube.com/embed/VjJLyHCHN-0" class="img-fluid rounded z-depth-1" %}
+{% include video.liquid path="https://www.youtube.com/embed/VjJLyHCHN-0" class="rounded z-depth-1" %}
 
 ## 4\. Conclusion
 
