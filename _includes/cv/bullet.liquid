@@ -1,0 +1,15 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-12 cl-sm-12 col-md-12 mt-2 mt-md-0">
+          <ul class="items">
+            {% for item in entry[1] %}
+              <li>
+                <span class="item">{{ item.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </li>
+</ul>
