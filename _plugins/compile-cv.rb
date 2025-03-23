@@ -1,7 +1,7 @@
 module Jekyll
   class CompilePDFHook < Jekyll::Generator
     safe true
-    priority :lowest
+    priority :high
 
     def generate(site)
       cv_file = File.join(site.source, '_data/cv.yml')
