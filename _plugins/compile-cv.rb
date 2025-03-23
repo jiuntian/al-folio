@@ -1,7 +1,7 @@
 module Jekyll
   class CompilePDFHook < Jekyll::Generator
     safe true
-    priority :high
+    priority :low
 
     def generate(site)
       cv_file = File.join(site.source, '_data/cv.yml')
@@ -33,6 +33,13 @@ module Jekyll
 
           if success
             Jekyll.logger.info "CompilePDF:", "PDF compilation succeeded."
+
+            # Add generated PDF to static files if not already present
+            relative_path = File.join("assets/pdf", "generated-cv.pdf")
+            unless site.static_files.any? { |f| f.relative_path == "/" + relative_path }
+              site.static_files << Jekyll::StaticFile.new(site, site.source, "assets/pdf", "generated-cv.pdf")
+              Jekyll.logger.info "CompilePDF:", "Added generated PDF to static files."
+            end
           else
             Jekyll.logger.error "CompilePDF:", "PDF compilation failed. Error output:\n#{output}"
           end
