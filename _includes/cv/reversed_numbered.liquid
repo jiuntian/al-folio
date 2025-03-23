@@ -1,0 +1,16 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+    {% assign items = entry[1] %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-12 cl-sm-12 col-md-12 mt-2 mt-md-0">
+          <ol class="items" reversed>
+            {% for item in items %}
+              <li>
+                <span class="item">{{ item.reversed_number | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      </div>
+    </li>
+</ul>
