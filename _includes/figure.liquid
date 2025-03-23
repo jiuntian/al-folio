@@ -2,10 +2,12 @@
 {% assign parts = include.path | split: '.' %}
 {% assign ext = parts.last %}
 
+<div class="figure-container d-flex align-items-center justify-content-center">
 <figure
   {% if include.slot %}
     slot="{{ include.slot }}"
   {% endif %}
+  class="figure"
 >
   <picture>
     <!-- Auto scaling with imagemagick -->
@@ -31,10 +33,11 @@
         >
       {% endunless %}
     {% endif %}
+    <div class="d-flex align-items-center justify-content-center">
     <img
       src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
-        class="{{ include.class }}"
+        class="{{ include.class }} figure-img"
       {% endif %}
       {% if include.width %}
         width="{{ include.width }}"
@@ -78,9 +81,11 @@
       {% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
+    </div>
   </picture>
 
   {% if include.caption %}
-    <figcaption class="caption">{{ include.caption }}</figcaption>
+    <figcaption class="caption figure-caption">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
+</div>

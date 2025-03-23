@@ -1,6 +1,7 @@
 {% assign extension = include.path | split: '.' | last %}
 
-<figure>
+<div class="video-container d-flex align-items-center justify-content-center">
+<figure class="figure">
   {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' %}
     <video
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
@@ -53,6 +54,7 @@
     />
 
   {% else %}
+    <div class="d-flex align-items-center justify-content-center">
     <iframe
       src="{{ include.path }}"
       {% if include.class %}
@@ -64,12 +66,12 @@
       {% if include.width %}
         width="{{ include.width }}"
       {% else %}
-        width="auto"
+        width="560"
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
       {% else %}
-        height="auto"
+        height="420"
       {% endif %}
       {% if include['min-width'] %}
         min-width="{{ include.min-width }}"
@@ -90,8 +92,10 @@
         title="{{ include.title }}"
       {% endif %}
     />
+    </div>
   {% endif %}
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
+</div>
