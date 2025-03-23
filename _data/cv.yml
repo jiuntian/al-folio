@@ -1,122 +1,379 @@
 # yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
 cv:
-  name: Albert Einstein
-  location: San Francisco, US
-  email: albert@einstein.de
-  phone: +49(912) 123-4567
-  website: https://alshedivat.github.io/al-folio/
+  name: Hoe Jiun Tian
+#  location: Singapore
+  email: jiuntian@gmail.com
+  website: https://jiuntian.com/
   social_networks:
     - network: GitHub
-      username: AlbertEinstein
+      username: jiuntian
+    - network: LinkedIn
+      username: jiuntian
+    - network: Google Scholar
+      username: h0HsHVkAAAAJ
+  
   sections:
-    summary:
-      - A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-    experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: "Princeton, NY"
-        start_date: "1933-01-01"
-        end_date: "1955-01-01"
-        summary: "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
-        highlights:
-          - Relativity
+#    summary:
+#      - '[RenderCV](https://rendercv.com) is a Typst-based CV framework. '
+#      - A German-born theoretical physicist, widely ranked among the greatest most influential scientists of all time
     education:
-      - institution: University of Zurich
-        area: Physics
+      - institution: Nanyang Technological University
+        area: School of Electrical and Electronic Engineering
         degree: PhD
-        start_date: "1905-01-01"
-        end_date: "1905-01-01"
-        location: "Zurich, CH"
+        start_date: "2022-08"
+        end_date: "present"
+        location: "Singapore"
         highlights:
-          - Molecular Physics
-          - "***Thesis:*** Eine neue Bestimmung der Moleküldimensionen"
-    awards:
-      - label: Nobel Prize in Physics
-        details: Royal Swedish Academy of Sciences
-        summary: "The Nobel Prize in Physics 1921 was awarded to me for my services to Theoretical Physics, and especially for my discovery of the law of the photoelectric effect"
-        date: "1921-11-01"
-    certificates:
-      - institution: Stanford University
-        area: '[Quantum Teleportation](https:\\example.com)'
-        degree: "Certificate"
-        date: "2018-01-01"
-        icon: "fa-solid fa-clipboard-check"
-      - institution: Stanford University
-        area: '[Quantum Computing](https:\\example.com)'
-        degree: "Certificate"
-        date: "2018-01-01"
-        icon: "fa-solid fa-tag"
-      - institution: Stanford University
-        area: '[Quantum Cryptography](https:\\example.com)'
-        degree: "Certificate"
-        date: "2018-01-01"
-        icon: "fa-solid fa-hashtag"
-      - institution: Stanford University
-        area: '[Quantum Communication](https:\\example.com)'
-        degree: "Certificate"
-        date: "2018-01-01"
-        icon: "fa-solid fa-envelope"
+          - Computer Vision, Image Generation
+          - Under the supervision of [Prof Tan Yap-Peng](https://personal.ntu.edu.sg/eyptan/) and [Prof Jiang Xudong](https://personal.ntu.edu.sg/exdjiang/).
+          - One work on image generation was accepted in CVPR 2024 and one are under reviewing.
+      - institution: Universiti Malaya
+        area: Artificial Intelligence
+        degree: BCompSc
+        start_date: "2018-09"
+        end_date: "2022-02"
+        location: "Kuala Lumpur, Malaysia"
+        highlights:
+          - Computer Vision, Deep Hashing based Image Retrieval
+          - 'CGPA: 3.993/4.000'
+          - Final year project on deep hashing was accepted in NeurIPS 2021 and BMVC 2023.
+    experience:
+      - company: MoneyLion Malaysia Sdn Bhd
+        position: AI Engineer Intern
+        location: "Kuala Lumpur, Malaysia"
+        start_date: "2019-03"
+        end_date: "2021-01"
+        summary: "Maintained and optimized an AI rule-based decision engine and model deployments using Java (Spring, Project Loom), Python (Flask, PyTorch), and Kubernetes."
+#        highlights:
+#          - Relativity
     publications:
-      - title: "Zur Elektrody/namik bewegter K\xF6rper"
+      - title: "InteractEdit: Zero-Shot Editing of Human-Object Interactions in Images"
         authors:
-          - "Albert Einstein"
-          - "Hermann Minkowski"
-        date: "1905-06-30"
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        doi: https://doi.org/10.1002/andp.19053221004
-        journal: "[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)"
-        summary: "It concerned an interpretation of the [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-      - title: "ber einen die Erzeugung und Verwandlung des Lichtes betreffendenheuristischen Gesichtspunkt"
-        authors: []
-        date: "1905-03-18"
-        # url: "https://de.wikisource.org/wiki/\xDCber_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt"
-      - title: "Die Grundlage der allgemeinen Relativit\xE4tstheorie"
-        authors: []
-        date: "1916-03-20"
-        # url: "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativittstheorie"
-    volunteering:
-      - company: "People's Climate March"
-        position: Lead Organizer
-        location: "Zurich, CH"
-        start_date: "2014-01-01"
-        end_date: "2015-07-01"
-        summary: "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
-        highlights:
-          - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
-          - Men of the year 2014 by Time magazine
-    projects:
-      - name: "[Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)"
-        start_date: "2018-01-01"
-        end_date: "2019-09-01"
-        location: "Princeton, NY"
-        summary: "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers."
-        highlights: ["Quantum Teleportation", "Quantum Cryptography"]
-      - name: "[Example Project](https://example.com)"
-        date: 2024-05
-        highlights:
-          - Launched an [iOS app](https://example.com) in 09/2024
-            that currently has 10k+ monthly active users
-          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-        summary: A web application for writing essays
+          - "**Jiun Tian Hoe**"
+          - Weipeng Hu
+          - Wei Zhou
+          - Chao Xie
+          - Ziwei Wang
+          - Chee Seng Chan
+          - Xudong Jiang
+          - Yap-Peng Tan
+        date: "2025-03"
+        journal: "arXiv preprint (under review)"
+      - title: "InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models"
+        authors:
+          - "**Jiun Tian Hoe**"
+          - Xudong Jiang
+          - Chee Seng Chan
+          - Yap-Peng Tan
+          - Weipeng Hu
+        date: "2024-06"
+#        url: https://jiuntian.github.io/interactdiffusion/
+#        doi: https://doi.org/10.1109/CVPR52733.2024.00591
+        journal: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+#        summary: "Text summary ..."
+      - title: "Residual Quotient Learning for Zero-Reference Low-Light Image Enhancement"
+        authors:
+          - Chao Xie
+          - Linfeng Fei
+          - Huanjie Tao
+          - Yaocong Hu
+          - Wei Zhou
+          - '**Jiun Tian Hoe**'
+          - Weipeng Hu
+          - Yap-Peng Tan
+        journal: IEEE Transactions on Image Processing
+        date: "2024-12"
+      - title: "Unsupervised Hashing with Similarity Distribution Calibration"
+        authors:
+          - Kam Woh Ng
+          - Xiatian Zhu
+          - '**Jiun Tian Hoe**'
+          - Chee Seng Chan
+          - Tianyu Zhang
+          - Yi-Zhe Song
+          - Tao Xiang
+        journal: "British Machine Vision Conference (BMVC)"
+        date: "2023-11"
+      - title: "One Loss for All: Deep Hashing with a Single Cosine Similarity based Learning Objective"
+        authors:
+          - '**Jiun Tian Hoe**'
+          - Kam Woh Ng
+          - Tianyu Zhang
+          - Chee Seng Chan
+          - Yi-Zhe Song
+          - Tao Xiang
+        journal: Advances in Neural Information Processing Systems (NeurIPS)
+        date: "2021-12"
+    services:
+      - company: "NTU"
+        position: Teaching Assistant - IE0005 Intro. to Data Science and AI
+        start_date: "2025"
+        end_date: "2025"
+      - company: "NTU"
+        position: Teaching Assistant - IM2073 Intro. to Design & Project
+        summary: Teach student on Unity, Java, Web, and Android Programming
+        start_date: "2025"
+        end_date: "2025"
+      - company: "NTU"
+        position: Teaching Assistant - EE2073 Intro. to EEE Design & Project
+        summary: Teach student to build a Automatic Volume Control Audio Amplifier System
+        start_date: "2024"
+        end_date: "2024"
+      - company: "NTU"
+        position: Teaching Assistant - IE4001 Software Engineering
+        start_date: "2024"
+        end_date: "2024"
+      - company: "NTU"
+        position: Teaching Assistant - IE1005 Computational Thinking to Programming
+        start_date: "2023"
+        end_date: "2024"
+      - company: "Universiti Malaya"
+        position: Teaching Assistant - WIA1002 Data Structure
+        start_date: "2019"
+        end_date: "2021"
+      - company: "Universiti Malaya"
+        position: Teaching Assistant - WIX1002 Fundamental of Programming
+        start_date: "2019"
+        end_date: "2020"
+      - company: "CVPR, ICCV, ECCV, BMVC"
+        position: Reviewer of Conference
+        # cvpr25, eccv24, cvpr23, bmvc23, iccv
+#      - company: "People's Climate March"
+#        position: Lead Organizer
+#        location: "Zurich, CH"
+#        start_date: "2014-01-01"
+#        end_date: "2015-07-01"
+#        summary: "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
+#        highlights:
+#          - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
+#          - Men of the year 2014 by Time magazine
     skills:
-      - label: Physics
-        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
-          Cryptography, Quantum Communication, Quantum Teleportation
+      - label: Programming
+        details: Python, Java, C/C++/C#, Bash, HTML5/CSS3/Javascript
         icon: "fa-solid fa-hashtag"
+      - label: Development Framework
+        details: ReactJS, Flask, Unity3D, Spring, Kubernetes
+        icon: "fa-solid fa-hashtag"
+      - label: Deep Learning Framework
+        details: PyTorch, Tensorflow, Accelerate
+        icon: "fa-solid fa-hashtag"
+    awards:
+      - label: Research Scholarship
+        details: Nanyang Technological University
+#        summary: ""
+        date: "2022"
+      - label: Book Prize
+        details: University Malaya
+        date: "2022"
+#    certificates:
+#      - institution: Stanford University
+#        area: '[Quantum Teleportation](https:\\example.com)'
+#        degree: "Certificate"
+#        date: "2018-01-01"
+#        icon: "fa-solid fa-clipboard-check"
+#    volunteering:
+#      - company: "People's Climate March"
+#        position: Lead Organizer
+#        location: "Zurich, CH"
+#        start_date: "2014-01-01"
+#        end_date: "2015-07-01"
+#        summary: "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
+#        highlights:
+#          - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
+#          - Men of the year 2014 by Time magazine
+#    projects:
+#      - name: "[Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)"
+#        start_date: "2018-01-01"
+#        end_date: "2019-09-01"
+#        location: "Princeton, NY"
+#        summary: "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers."
+#        highlights: [ "Quantum Teleportation", "Quantum Cryptography" ]
+#      - name: "[Example Project](https://example.com)"
+#        date: 2024-05
+#        highlights:
+#          - Launched an [iOS app](https://example.com) in 09/2024
+#            that currently has 10k+ monthly active users
+#          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+#        summary: A web application for writing essays
     interests:
-      - label: Physics
-        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
-          Cryptography, Quantum Communication, Quantum Teleportation
-        icon: "fa-solid fa-hashtag"
+      - Computer vision, image generation and editing, human-object interaction, diffusion models
+#      - label: Physics
+#        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
+#          Cryptography, Quantum Communication, Quantum Teleportation
+#        icon: "fa-solid fa-hashtag"
     languages:
-      - label: German
+      - label: Chinese
         details: Native
       - label: English
         details: Fluent
+      - label: Malay
+        details: Fluent
+      - label: Hokkien
+        details: Native
     references:
-      - label: "[Professor John Doe](mailto:professor@john.doe)"
-        details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
-        icon: "fa-solid fa-laptop"
-      - label: "[Professor John Doe](mailto:professor@john.doe)"
-        details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
-        icon: "fa-solid fa-thumbtack"
+      - References available upon request
+#    normal:
+#      - name: Some Project
+#        date: 2021-09
+#        summary: This is a summary of the project.
+#        highlights:
+#        - Developed a web application with **React** and **Django**.
+#        - Implemented a **RESTful API**
+#    one line entry:
+#      - label: Programming
+#        details: Python, C++, JavaScript, MATLAB, Python, C++, JavaScript, MATLAB
+#      - label: Programming
+#        details: Python, C++, JavaScript, MATLAB, Python, C++, JavaScript, MATLAB
+#    bullet:
+#      - bullet: This is a bullet
+#      - bullet: this is second bullet
+#    number:
+#      - number: This is a numbered entry.
+#      - number: This is a 2 numbered entry.
+#    reverse:
+#      - reversed_number: this is 2
+#      - reversed_number: this is 1
+#      - label: "References upon request"
+#        details: "Available references include academic advisors, former employers, and project leads."
+#      - label: "[Professor John Doe](mailto:professor@john.doe)"
+#        details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
+#        icon: "fa-solid fa-thumbtack"
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: [ ]
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        JOURNAL(URL)
+      main_column_second_row_without_journal_template: |-
+        '**TITLE**'
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: international
+  page_numbering_template: Page PAGE_NUMBER of TOTAL_PAGES # NAME - Page PAGE_NUMBER of TOTAL_PAGEG
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-03-23'
+#  bold_keywords: []
