@@ -6,8 +6,8 @@ subtitle: School of Electrical and Electronic Engineering, NTU. jiuntian@gmail.c
 
 profile:
   align: right
-  image: pic.png
-  image_circular: true # crops the image to make it circular
+  image: pic2.png
+  image_circular: false # crops the image to make it circular
   more_info: >
     <!-- <p>555 your office number</p> -->
     <!-- <p>Balik Pulau 11000</p> -->
