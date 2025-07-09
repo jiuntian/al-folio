@@ -35,7 +35,7 @@ cv:
         location: "Kuala Lumpur, Malaysia"
         highlights:
           - Computer Vision, Deep Hashing based Image Retrieval
-          - 'CGPA: 3.993/4.000'
+          - 'CGPA: 3.99/4.00'# 3.993
           - Final year project on deep hashing was accepted in NeurIPS 2021 and BMVC 2023.
     experience:
       - company: MoneyLion Malaysia Sdn Bhd
@@ -47,6 +47,26 @@ cv:
 #        highlights:
 #          - Relativity
     publications:
+      - title: "Cascaded Dynamic Memory Refinement and Semantic Alignment for Exo-to-Ego Cross-view Video Generation"
+        authors:
+          - Weipeng Hu
+          - "**Jiun Tian Hoe**"
+          - Jianhui Li
+          - Haifeng Hu
+          - Xudong Jiang
+          - Yap-Peng Tan
+        date: "2025-05"
+        journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+      - title: "Motion-guided token prioritization and semantic degradation fusion for exo-to-ego cross-view video generation"
+        authors:
+          - Weipeng Hu
+          - "**Jiun Tian Hoe**"
+          - Runzhong Zhang
+          - Yiming Yang
+          - Haifeng Hu
+          - Yap-Peng Tan
+        date: "2025-05"
+        journal: "Information Fusion"
       - title: "InteractEdit: Zero-Shot Editing of Human-Object Interactions in Images"
         authors:
           - "**Jiun Tian Hoe**"
