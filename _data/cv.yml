@@ -155,7 +155,7 @@ cv:
         position: Teaching Assistant - WIX1002 Fundamental of Programming
         start_date: "2019"
         end_date: "2020"
-      - company: "CVPR, ICCV, ECCV, BMVC"
+      - company: "CVPR, NeurIPS, ICCV, ECCV, BMVC"
         position: Reviewer of Conference
         # cvpr25, eccv24, cvpr23, bmvc23, iccv
 #      - company: "People's Climate March"
