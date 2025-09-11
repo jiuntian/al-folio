@@ -214,6 +214,7 @@ exclude:
   - _posts/2023-03-20-table-of-contents.md
   - _posts/2023-03-21-tables.md
   - _posts/2024-01-26-chartjs.md
+  - _posts/2025-03-26-plotly.md
   - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
