@@ -1,2 +1,4 @@
 nbconvert
 rendercv[full]
+pyyaml
+scholarly
