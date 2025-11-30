@@ -10,7 +10,7 @@
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
 # dblp_url: https://dblp.org/pid/303/0575.html # your DBLP profile url
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+cv_pdf: /assets/pdf/generated-cv.pdf # path to your CV PDF file
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: jiuntian@gmail.com # your email address

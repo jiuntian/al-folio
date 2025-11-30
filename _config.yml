@@ -192,10 +192,12 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _posts/2018-12-22-distill.md
   - _posts/2024-01-27-advanced-images.md
   - _posts/2024-04-28-post-citation.md
   - _posts/2023-04-25-audios.md
   - _posts/2021-01-28-comments.md
+  - _posts/2021-07-04-diagrams.md
   - _posts/2023-12-12-tikzjax.md
   - _posts/2023-07-12-post-bibliography.md
   - _posts/2024-01-27-vega-lite.md
