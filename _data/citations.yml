@@ -1,10 +1,14 @@
 metadata:
-  last_updated: '2025-11-30'
+  last_updated: '2026-01-07'
 papers:
   h0HsHVkAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Adaptive memory refinement and perception enhancement for exo-to-ego video generation
     year: '2025'
+  h0HsHVkAAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: Progressive Temporal Compensation and Semantic Enhancement for Exo-to-Ego Video Generation
+    year: '2026'
   h0HsHVkAAAAJ:LkGwnXOMwfcC:
     citations: 1
     title: 'InteractEdit: Zero-Shot Editing of Human-Object Interactions in Images'
@@ -14,19 +18,19 @@ papers:
     title: Cascaded Dynamic Memory Refinement and Semantic Alignment for Exo-to-Ego Cross-view Video Generation
     year: '2025'
   h0HsHVkAAAAJ:Tyk-4Ss8FVUC:
-    citations: 50
+    citations: 53
     title: 'InteractDiffusion: Interaction control in text-to-image diffusion models'
     year: '2024'
   h0HsHVkAAAAJ:_FxGoFyzp5QC:
-    citations: 7
+    citations: 9
     title: Residual quotient learning for zero-reference low-light image enhancement
     year: '2024'
   h0HsHVkAAAAJ:qjMakFHDy7sC:
-    citations: 182
+    citations: 183
     title: 'One loss for all: Deep hashing with a single cosine similarity based learning objective'
     year: '2021'
   h0HsHVkAAAAJ:roLk4NBRz8UC:
-    citations: 3
+    citations: 4
     title: Motion-guided token prioritization and semantic degradation fusion for exo-to-ego cross-view video generation
     year: '2025'
   h0HsHVkAAAAJ:zYLM7Y9cAGgC:
