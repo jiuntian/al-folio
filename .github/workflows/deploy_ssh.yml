@@ -103,13 +103,24 @@ jobs:
         purgecss -c purgecss.config.js
     - name: Clean and Move files
       run: yes | bin/move_file
-    - name: copy file via ssh password
-      uses: appleboy/scp-action@master
+    # - name: copy file via ssh password
+    #   uses: appleboy/scp-action@master
+    #   with:
+    #     host: ${{ secrets.VM_PUBLIC_IP }}
+    #     username: ${{ secrets.DEPLOY_USERNAME }}
+    #     key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
+    #     port: ${{ secrets.VM_PORT }}
+    #     source: "."
+    #     target: ${{ secrets.VM_DEPLOY_PATH }}
+    #     overwrite: true
+    - name: Deploy via Rsync
+      uses: Burnett01/rsync-deployments@7.0.1
       with:
-        host: ${{ secrets.VM_PUBLIC_IP }}
-        username: ${{ secrets.DEPLOY_USERNAME }}
-        key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
-        port: ${{ secrets.VM_PORT }}
-        source: "."
-        target: ${{ secrets.VM_DEPLOY_PATH }}
-        overwrite: true
+        # -a: archive mode, -v: verbose, -z: compress during transfer
+        # --no-perms/owner/group: the magic fix for your "Operation not permitted" error
+        switches: -avz --no-perms --no-owner --no-group --delete
+        path: "."
+        remote_path: ${{ secrets.VM_DEPLOY_PATH }}
+        remote_host: ${{ secrets.VM_PUBLIC_IP }}
+        remote_user: ${{ secrets.DEPLOY_USERNAME }}
+        remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
