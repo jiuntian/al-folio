@@ -82,8 +82,8 @@ jobs:
     - name: Cache APT imagemagick
       uses: awalsh128/cache-apt-pkgs-action@latest
       with:
-        packages: imagemagick
-        version: 1.0
+        packages: imagemagick, libmagickwand-dev, ghostscript
+        version: 1.1
     - name: Update _config.yml ⚙️
       uses: fjogeleit/yaml-update-action@main
       with:
