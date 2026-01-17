@@ -123,4 +123,4 @@ jobs:
         remote_path: ${{ secrets.VM_DEPLOY_PATH }}
         remote_host: ${{ secrets.VM_PUBLIC_IP }}
         remote_user: ${{ secrets.DEPLOY_USERNAME }}
-        remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        remote_key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
