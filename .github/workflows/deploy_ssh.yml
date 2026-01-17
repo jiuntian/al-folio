@@ -94,7 +94,7 @@ jobs:
     - name: Install and Build 🔧
       # sudo apt-get update && sudo apt-get install -y imagemagick
       run: |
-        pip3 install -r requirements.txt
+        pip3 install -r requirements.txt --user
         export JEKYLL_ENV=production
         bundle exec jekyll build
     - name: Purge unused CSS 🧹
@@ -118,7 +118,7 @@ jobs:
       with:
         # -a: archive mode, -v: verbose, -z: compress during transfer
         # --no-perms/owner/group: the magic fix for your "Operation not permitted" error
-        switches: -avz --no-perms --no-owner --no-group --delete
+        switches: -avz --no-perms --no-owner --no-group -O
         path: "."
         remote_path: ${{ secrets.VM_DEPLOY_PATH }}
         remote_host: ${{ secrets.VM_PUBLIC_IP }}
