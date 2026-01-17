@@ -104,7 +104,7 @@ jobs:
         host: ${{ secrets.VM_PUBLIC_IP }}
         username: ${{ secrets.DEPLOY_USERNAME }}
         key: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
-        port: ${{ secrets.PORT }}
+        port: ${{ secrets.VM_PORT }}
         source: "."
         target: ${{ secrets.VM_DEPLOY_PATH }}
         overwrite: true
