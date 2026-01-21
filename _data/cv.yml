@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Hoe Jiun Tian
-  headline: PhD Student
+#  headline: PhD Student
 #  location: Singapore
   email: jiuntian@gmail.com
   # phone: ??
