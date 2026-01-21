@@ -350,61 +350,61 @@ design:
     space_between_text_based_entries: 0.3em
     show_time_spans_in:
       - experience
-#  entries:
-#    date_and_location_width: 4.15cm
-#    side_space: 0.2cm
-#    space_between_columns: 0.1cm
-#    allow_page_break: false
-#    short_second_row: true
-#    summary:
-#      space_above: 0cm
-#      space_left: 0cm
-#    highlights:
-#      bullet: •
-#      nested_bullet: •
-#      space_left: 0.15cm
-#      space_above: 0cm
-#      space_between_items: 0cm
-#      space_between_bullet_and_text: 0.5em
-#  templates:
-  #  footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
-  #  top_note: '*LAST_UPDATED CURRENT_DATE*'
-  #  single_date: MONTH_ABBREVIATION YEAR
-  #  date_range: START_DATE – END_DATE
-  #  time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
-#    one_line_entry:
-#      main_column: '**LABEL:** DETAILS'
-#    education_entry:
-#      main_column: |-
-#        **INSTITUTION**, AREA
-#        SUMMARY
-#        HIGHLIGHTS
-#      degree_column: '**DEGREE**'
-#      date_and_location_column: |-
-#        LOCATION
-#        DATE
-#    normal_entry:
-#      main_column: |-
-#        **NAME**
-#        SUMMARY
-#        HIGHLIGHTS
-#      date_and_location_column: |-
-#        LOCATION
-#        DATE
-#    experience_entry:
-#      main_column: |-
-#        **COMPANY**, POSITION
-#        SUMMARY
-#        HIGHLIGHTS
-#      date_and_location_column: |-
-#        LOCATION
-#        DATE
-#    publication_entry:
-#      main_column: |-
-#        **TITLE**
-#        AUTHORS
-#        URL (JOURNAL)
-#      date_and_location_column: DATE
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: true
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: •
+      nested_bullet: •
+      space_left: 0.15cm
+      space_above: 0cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+  templates:
+    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+    one_line_entry:
+      main_column: '**LABEL:** DETAILS'
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, AREA
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: '**DEGREE**'
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        AUTHORS
+        URL (JOURNAL)
+      date_and_location_column: DATE
 locale:
   language: english
   last_updated: Last updated in
