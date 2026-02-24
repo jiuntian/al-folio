@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: generated-cv.pdf # you can also use external links here
+cv_pdf: assets/pdf/generated-cv.pdf # you can also use external links here
 cv_format: rendercv
 description: Click the PDF button above to download.
 toc:
