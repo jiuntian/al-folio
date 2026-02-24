@@ -8,8 +8,13 @@
       {% if entry.icon %}
         <i class="{{ entry.icon }}"></i>
       {% endif %}
-      <strong>{{ entry.name }}</strong>
-      <p>{{ entry.reference | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% if entry.name %}
+        <strong>{{ entry.name }}</strong>
+        <p>{{ entry.reference | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
+      {% if entry %}
+        <p>{{ entry }}</p>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
