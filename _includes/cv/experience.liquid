@@ -11,10 +11,10 @@
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
           {% capture start_date %}
-            {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
+            {%- if entry.start_date -%}{{ entry.start_date }}{%- elsif entry.startDate -%}{{ entry.startDate }}{%- endif -%}
           {% endcapture %}
           {% capture end_date %}
-            {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
+            {%- if entry.end_date -%}{{ entry.end_date }}{%- elsif entry.endDate -%}{{ entry.endDate }}{%- endif -%}
           {% endcapture %}
 
           {% if start_date != '' %}
