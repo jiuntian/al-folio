@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Hoe Jiun Tian
-#  headline: PhD Student
+#  label: PhD Student
 #  location: Singapore
   email: jiuntian@gmail.com
   # phone: ??
@@ -13,7 +13,7 @@ cv:
       username: jiuntian
     - network: Google Scholar
       username: h0HsHVkAAAAJ
-  
+
   sections:
 #    summary:
 #      - '[RenderCV](https://rendercv.com) is a Typst-based CV framework. '
@@ -21,7 +21,8 @@ cv:
     education:
       - institution: Nanyang Technological University
         area: School of Electrical and Electronic Engineering
-        degree: PhD
+#        degree: PhD
+        studyType: PhD
         start_date: "2022-08"
         end_date: "present"
         location: "Singapore"
@@ -35,6 +36,7 @@ cv:
         start_date: "2018-09"
         end_date: "2022-02"
         location: "Kuala Lumpur, Malaysia"
+        score: '3.99/4.00'
         highlights:
           - Computer Vision, Deep Hashing based Image Retrieval
           - 'CGPA: 3.99/4.00'# 3.993
@@ -272,14 +274,6 @@ design:
     show_footer: true
     show_top_note: true
 
-  #  colors:
-  #    text: rgb(0, 0, 0)
-  #    name: rgb(0, 0, 0)
-  #    connections: rgb(0, 0, 0)
-  #    section_titles: rgb(0, 0, 0)
-  #    links: rgb(0, 0, 0)
-  #    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-
   colors:
     body: rgb(0, 0, 0)
     name: rgb(0, 79, 144)
@@ -440,5 +434,5 @@ locale:
     - November
     - December
 settings:
-  current_date: '2025-03-23'
+  current_date: '2026-02-24'
 #  bold_keywords: []
