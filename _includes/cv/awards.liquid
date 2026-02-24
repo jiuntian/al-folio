@@ -12,6 +12,9 @@
           {% capture title %}
             {% if entry.title %}{{ entry.title }}{% elsif entry.label %}{{ entry.label }}{% endif %}
           {% endcapture %}
+          {% capture awarder %}
+              {% if entry.awarder %}{{ entry.awarder }}{% elsif entry.details %}{{ entry.details }}{% endif %}
+          {% endcapture %}
 
         {% if start_date != '' %}
           <div class="col-xs-2 col-sm-2 col-md-2 text-center">
@@ -36,8 +39,8 @@
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ title }}</h6>
             {% endif %}
 
-            {% if entry.awarder %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% if awarder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ awarder }}</h6>
             {% endif %}
 
             {% if entry.summary %}

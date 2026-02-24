@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
 cv:
-  name: Hoe Jiun Tian
+  name: HOE Jiun Tian
 #  label: PhD Student
 #  location: Singapore
   email: jiuntian@gmail.com
@@ -20,19 +20,19 @@ cv:
 #      - A German-born theoretical physicist, widely ranked among the greatest most influential scientists of all time
     Education:
       - institution: Nanyang Technological University
-        area: School of Electrical and Electronic Engineering
-        degree: PhD
+        area: Electrical and Electronic Engineering # School of
+        degree: Ph.D
         start_date: "2022-08"
         end_date: "2026-07"
         location: "Jurong West, Singapore"
         highlights:
           - Computer Vision, Image Generation, ExoEgoVideo
-          - 2 first-author work on image generation was accepted at CVPR2024 and CVPR2026; 1 are under reviewing.
+          - 2 first-author work in AIGC was accepted at CVPR2024 and CVPR2026; 1 are under reviewing.
           - 5 co-authored works published in top tier venue (TPAMI, TIP, Inf. Fusion, Neurocomputing) and 2 under-review.
           - Expected to graduate at July 2026.
           - Under the supervision of [Prof Tan Yap-Peng](https://vinuni.edu.vn/people/tan-yap-peng/) and [Prof Jiang Xudong](https://personal.ntu.edu.sg/exdjiang/).
       - institution: Universiti Malaya
-        area: Artificial Intelligence
+        area: Computer Science (Artificial Intelligence)
         degree: B.CS. #BCompSc
         start_date: "2018-09"
         end_date: "2022-02"
@@ -41,15 +41,6 @@ cv:
           - Computer Vision, Deep Hashing based Image Retrieval
           - 'CGPA: 3.99/4.00'# 3.993
           - Final year project on deep hashing was accepted in NeurIPS 2021 (first-author) and BMVC 2023, under supervision of [Prof Chan Chee Seng](https://cs-chan.com).
-    Experience:
-      - company: MoneyLion Malaysia Sdn Bhd
-        position: AI Engineer Intern
-        location: "Kuala Lumpur, Malaysia"
-        start_date: "2019-03"
-        end_date: "2021-01"
-        summary: "Maintained and optimized an AI rule-based decision engine and model deployments using Java (Spring, Project Loom), Python (Flask, PyTorch), and Kubernetes."
-#        highlights:
-#          - Relativity
     Publications:
       - title: "OneHOI: Unifying Human-Object Interaction Generation and Editing"
         authors:
@@ -192,6 +183,15 @@ cv:
       - company: "CVPR, NeurIPS, ECCV, ICCV, BMVC, AAAI"
         position: Reviewer of Conference
         # cvpr26, aaai, bmvc26, NeurIPS25, eccv26, cvpr25, eccv24, cvpr23, bmvc23, iccv
+    Experience:
+      - company: MoneyLion Malaysia Sdn Bhd
+        position: AI Engineer Intern
+        location: "Kuala Lumpur, Malaysia"
+        start_date: "2019-03"
+        end_date: "2021-01"
+        summary: "Maintained and optimized an AI rule-based decision engine and model deployments using Java (Spring, Project Loom), Python (Flask, PyTorch), and Kubernetes."
+    #        highlights:
+    #          - Relativity
 #      - company: "People's Climate March"
 #        position: Lead Organizer
 #        location: "Zurich, CH"
@@ -212,13 +212,20 @@ cv:
         details: PyTorch, Tensorflow, Huggingface Stack(Accelerate,Diffusers,Transformers)
         icon: "fa-solid fa-hashtag"
     Awards:
+      - label: PREMIA Best Student Paper Awards 2024 Honourable Mention Awards # label
+        details: Pattern Recognition and Machine Intelligence Association #(PREMIA) # details
+        url: https://www.premiasg.org/web/premia-best-student-paper-awards-2024/
+        date: "2024"
       - label: Research Scholarship # label
         details: Nanyang Technological University # details
-#        summary: ""
         date: "2022"
       - label: Book Prize (First class graduate)
-        details: University Malaya
+        details: University of Malaya
         date: "2022"
+      - label: IEEE Malaysia FYP Competition 2021 Champion in Signal and Image Processing and Analysis track
+        details: IEEE Malaysia
+        date: "2021"
+        url: https://www.facebook.com/share/1DMqWQK9QS/
 #    certificates:
 #      - institution: Stanford University
 #        area: '[Quantum Teleportation](https:\\example.com)'
