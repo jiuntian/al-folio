@@ -32,7 +32,7 @@ My name is Hoe Jiun Tian (何俊添). I am currently final year PhD student in N
 I am currently interested in image generation, diffusion models, human-object interactions.
 I have authored 12 publications to date, including **3 first-author papers in top-tier venues (CVPR, NeurIPS)** and **six co-authored works** in prestigious journals and conferences such as **TPAMI**, TIP, BMVC, Information Fusion, and Neurocomputing. Additionally, three manuscripts are currently under review.
 
-I am currently seeking **internship and full-time opportunities in Singapore**. Please feel free to reach out directly or view my CV [here](/assets/pdf/cv.pdf).
+I am currently seeking **internship and full-time opportunities in Singapore**. Please feel free to reach out directly or view my CV [here](/assets/pdf/generated-cv.pdf).
 
 <!-- Before I start my undergraduate studies, I am interested in programming, electronics, 3D printing, and interplay between them. I likes to make some small automation projects that make my life easier. -->
 
