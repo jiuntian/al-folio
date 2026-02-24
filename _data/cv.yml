@@ -18,30 +18,30 @@ cv:
 #    summary:
 #      - '[RenderCV](https://rendercv.com) is a Typst-based CV framework. '
 #      - A German-born theoretical physicist, widely ranked among the greatest most influential scientists of all time
-    education:
+    Education:
       - institution: Nanyang Technological University
         area: School of Electrical and Electronic Engineering
-#        degree: PhD
-        studyType: PhD
+        degree: PhD
         start_date: "2022-08"
-        end_date: "present"
-        location: "Singapore"
+        end_date: "2026-07"
+        location: "Jurong West, Singapore"
         highlights:
-          - Computer Vision, Image Generation
+          - Computer Vision, Image Generation, ExoEgoVideo
+          - 2 first-author work on image generation was accepted at CVPR2024 and CVPR2026; 1 are under reviewing.
+          - 5 co-authored works published in top tier venue (TPAMI, TIP, Inf. Fusion, Neurocomputing) and 2 under-review.
+          - Expected to graduate at July 2026.
           - Under the supervision of [Prof Tan Yap-Peng](https://vinuni.edu.vn/people/tan-yap-peng/) and [Prof Jiang Xudong](https://personal.ntu.edu.sg/exdjiang/).
-          - One work on image generation was accepted in CVPR 2024 and one are under reviewing.
       - institution: Universiti Malaya
         area: Artificial Intelligence
-        degree: BCompSc
+        degree: B.CS. #BCompSc
         start_date: "2018-09"
         end_date: "2022-02"
         location: "Kuala Lumpur, Malaysia"
-        score: '3.99/4.00'
         highlights:
           - Computer Vision, Deep Hashing based Image Retrieval
           - 'CGPA: 3.99/4.00'# 3.993
-          - Final year project on deep hashing was accepted in NeurIPS 2021 and BMVC 2023.
-    experience:
+          - Final year project on deep hashing was accepted in NeurIPS 2021 (first-author) and BMVC 2023, under supervision of [Prof Chan Chee Seng](https://cs-chan.com).
+    Experience:
       - company: MoneyLion Malaysia Sdn Bhd
         position: AI Engineer Intern
         location: "Kuala Lumpur, Malaysia"
@@ -50,7 +50,37 @@ cv:
         summary: "Maintained and optimized an AI rule-based decision engine and model deployments using Java (Spring, Project Loom), Python (Flask, PyTorch), and Kubernetes."
 #        highlights:
 #          - Relativity
-    publications:
+    Publications:
+      - title: "OneHOI: Unifying Human-Object Interaction Generation and Editing"
+        authors:
+          - "**Jiun Tian Hoe**"
+          - Weipeng Hu
+          - Xudong Jiang
+          - Yap-Peng Tan
+          - Chee Seng Chan
+        date: "2026-06"
+        journal: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+      - title: "Progressive Temporal Compensation and Semantic Enhancement for Exo-to-Ego Video Generation"
+        authors:
+          - Xingyue Wang
+          - Weipeng Hu
+          - "**Jiun Tian Hoe**"
+          - Jianhui Li
+          - Ping Hu
+          - Yap-Peng Tan
+        date: "2026-01"
+        journal: Information Fusion
+      - title: "Adaptive Memory Refinement and Perception Enhancement for Exo-to-Ego Video Generation"
+        authors:
+        - Jianhui Li
+        - Weipeng Hu
+        - Xingyue Wang
+        - "**Jiun Tian Hoe**"
+        - Ping Hu
+        - Xudong Jiang
+        - Yap-Peng Tan
+        date: "2025-10"
+        journal: Neurocomputing
       - title: "Cascaded Dynamic Memory Refinement and Semantic Alignment for Exo-to-Ego Cross-view Video Generation"
         authors:
           - Weipeng Hu
@@ -128,7 +158,7 @@ cv:
           - Tao Xiang
         journal: Advances in Neural Information Processing Systems (NeurIPS)
         date: "2021-12"
-    services:
+    Services:
       - company: "NTU"
         position: Teaching Assistant - IE0005 Intro. to Data Science and AI
         start_date: "2025"
@@ -159,9 +189,9 @@ cv:
         position: Teaching Assistant - WIX1002 Fundamental of Programming
         start_date: "2019"
         end_date: "2020"
-      - company: "CVPR, NeurIPS, ICCV, ECCV, BMVC"
+      - company: "CVPR, NeurIPS, ECCV, ICCV, BMVC, AAAI"
         position: Reviewer of Conference
-        # cvpr25, eccv24, cvpr23, bmvc23, iccv
+        # cvpr26, aaai, bmvc26, NeurIPS25, eccv26, cvpr25, eccv24, cvpr23, bmvc23, iccv
 #      - company: "People's Climate March"
 #        position: Lead Organizer
 #        location: "Zurich, CH"
@@ -171,7 +201,7 @@ cv:
 #        highlights:
 #          - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
 #          - Men of the year 2014 by Time magazine
-    skills:
+    Skills:
       - label: Programming
         details: Python, Java, C/C++/C#, Bash, HTML5/CSS3/Javascript
         icon: "fa-solid fa-hashtag"
@@ -179,14 +209,14 @@ cv:
         details: ReactJS, Flask, Unity3D, Spring, Kubernetes
         icon: "fa-solid fa-hashtag"
       - label: Deep Learning Framework
-        details: PyTorch, Tensorflow, Accelerate
+        details: PyTorch, Tensorflow, Huggingface Stack(Accelerate,Diffusers,Transformers)
         icon: "fa-solid fa-hashtag"
-    awards:
-      - label: Research Scholarship
-        details: Nanyang Technological University
+    Awards:
+      - label: Research Scholarship # label
+        details: Nanyang Technological University # details
 #        summary: ""
         date: "2022"
-      - label: Book Prize
+      - label: Book Prize (First class graduate)
         details: University Malaya
         date: "2022"
 #    certificates:
@@ -219,22 +249,26 @@ cv:
 #            that currently has 10k+ monthly active users
 #          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
 #        summary: A web application for writing essays
-    interests:
-      - Computer vision, image generation and editing, human-object interaction, diffusion models
+    Interests:
+      - label: Computer Vision
+        icon: fa-solid fa-tag
+        details: "image generation and editing, human-object interaction, diffusion models"
+#      - Computer vision, image generation and editing, human-object interaction, diffusion models
 #      - label: Physics
 #        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
 #          Cryptography, Quantum Communication, Quantum Teleportation
 #        icon: "fa-solid fa-hashtag"
-    languages:
-      - label: Chinese
-        details: Native
-      - label: English
-        details: Fluent
-      - label: Malay
-        details: Fluent
-      - label: Hokkien
-        details: Native
-    references:
+    Languages:
+      - '**Chinese** (Native), **English** (Fluent), **Malay** (Fluent), **Hokkien** (Native)'
+#      - name: Chinese
+#        summary: Native
+#      - name: English
+#        summary: Fluent
+#      - name: Malay
+#        summary: Fluent
+#      - name: Hokkien
+#        summary: Native
+    References:
       - References available upon request
 #    normal:
 #      - name: Some Project
