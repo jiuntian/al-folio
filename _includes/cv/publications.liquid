@@ -39,6 +39,18 @@
               </h6>
             {% endif %}
 
+              {% if entry.authors %}
+                  <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">
+                      {{ entry.authors[] | join: ", " | markdownify | remove: '<p>' | remove: '</p>' }}
+                  </h6>
+              {% endif %}
+
+              {% if entry.journal %}
+                  <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic; font-weight: bold">
+                      {{ entry.journal | markdownify | remove: '<p>' | remove: '</p>' }}
+                  </h6>
+              {% endif %}
+
             {% if entry.summary %}
               <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             {% endif %}
