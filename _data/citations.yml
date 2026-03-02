@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-25'
+  last_updated: '2026-03-02'
 papers:
   h0HsHVkAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -13,6 +13,10 @@ papers:
     citations: 1
     title: 'Interactedit: Zero-shot editing of human-object interactions in images'
     year: '2025'
+  h0HsHVkAAAAJ:MXK_kJrjxJIC:
+    citations: 0
+    title: 'OneHOI: Unifying Human-Object Interaction Generation and Editing'
+    year: '2026'
   h0HsHVkAAAAJ:Se3iqnhoufwC:
     citations: 3
     title: Cascaded dynamic memory refinement and semantic alignment for exo-to-ego cross-view video generation
@@ -26,7 +30,7 @@ papers:
     title: Residual quotient learning for zero-reference low-light image enhancement
     year: '2024'
   h0HsHVkAAAAJ:qjMakFHDy7sC:
-    citations: 190
+    citations: 192
     title: 'One loss for all: Deep hashing with a single cosine similarity based learning objective'
     year: '2021'
   h0HsHVkAAAAJ:roLk4NBRz8UC:
