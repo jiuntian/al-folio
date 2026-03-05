@@ -114,7 +114,7 @@ jobs:
     #     target: ${{ secrets.VM_DEPLOY_PATH }}
     #     overwrite: true
     - name: Deploy via Rsync
-      uses: Burnett01/rsync-deployments@7.0.1
+      uses: Burnett01/rsync-deployments@8.0.4 # 7.0.1
       with:
         # -a: archive mode, -v: verbose, -z: compress during transfer
         # --no-perms/owner/group: the magic fix for your "Operation not permitted" error
