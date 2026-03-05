@@ -41,4 +41,4 @@ I am currently seeking **internship and full-time opportunities in Singapore**. 
 
 <!-- Before I start my undergraduate studies, I am interested in programming, electronics, 3D printing, and interplay between them. I likes to make some small automation projects that make my life easier. -->
 
-<!-- You can get my <s>latest</s> not up-to-date CV <a href="/assets/pdf/cv.pdf">here</a>. -->
+<!-- You can get my <s>latest</s> not up-to-date CV <a href="/assets/pdf/cv.pdf">here</a>.  -->
