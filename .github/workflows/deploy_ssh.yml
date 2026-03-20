@@ -79,11 +79,11 @@ jobs:
       with:
         python-version: "3.13"
         cache: "pip" # caching pip dependencies
-    - name: Cache APT imagemagick
-      uses: awalsh128/cache-apt-pkgs-action@latest
-      with:
-        packages: imagemagick, libmagickwand-dev, ghostscript
-        version: 1.1
+#    - name: Cache APT imagemagick
+#      uses: awalsh128/cache-apt-pkgs-action@latest
+#      with:
+#        packages: imagemagick, libmagickwand-dev, ghostscript
+#        version: 1.1
     - name: Update _config.yml ⚙️
       uses: fjogeleit/yaml-update-action@main
       with:
@@ -92,8 +92,8 @@ jobs:
         propertyPath: "giscus.repo"
         value: ${{ github.repository }}
     - name: Install and Build 🔧
-      # sudo apt-get update && sudo apt-get install -y imagemagick
       run: |
+        sudo apt-get update && sudo apt-get install -y imagemagick
         pip3 install -r requirements.txt --user
         export JEKYLL_ENV=production
         bundle exec jekyll build

@@ -8,6 +8,10 @@ profile:
   align: right
   image: pic2.png
   image_circular: false # crops the image to make it circular
+  alt_image_list: # optional: list of images shown after clicking profile image 5 times
+    - pic3.jpg
+    - pic4.png
+    - pic5.jpeg
   more_info: >
     <!-- <p>555 your office number</p> -->
     <!-- <p>Balik Pulau 11000</p> -->

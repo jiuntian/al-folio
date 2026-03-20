@@ -27,10 +27,63 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          {% assign has_alt_images = false %}
+          {% if page.profile.alt_image_list and page.profile.alt_image_list.size > 0 %}
+            {% assign has_alt_images = true %}
+          {% endif %}
+          <div id="profile-img-main"{% if has_alt_images %} style="cursor: pointer;"{% endif %}>
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
+          </div>
+          {% if has_alt_images %}
+            {% for alt_img in page.profile.alt_image_list %}
+              {% assign alt_image_path = alt_img | prepend: 'assets/img/' %}
+              <div id="profile-alt-img-{{ forloop.index0 }}" style="display: none; cursor: pointer;">
+                {%
+                  include figure.liquid loading="lazy" path=alt_image_path class=profile_image_class sizes=sizes alt=alt_img
+                  cache_bust=true
+                %}
+              </div>
+            {% endfor %}
+            <script>
+              (function () {
+                var clickCount = 0;
+                var altCount = {{ page.profile.alt_image_list.size }};
+                // current = -1 means main image is shown; 0..altCount-1 = alt images
+                var current = -1;
+                var mainWrapper = document.getElementById('profile-img-main');
+
+                function showCurrent() {
+                  mainWrapper.style.display = current === -1 ? '' : 'none';
+                  for (var j = 0; j < altCount; j++) {
+                    var el = document.getElementById('profile-alt-img-' + j);
+                    el.style.display = j === current ? '' : 'none';
+                  }
+                }
+
+                function onImageClick() {
+                  clickCount++;
+                  if (clickCount >= 3) {
+                    clickCount = 0;
+                    // cycle: main → alt0 → alt1 → ... → altN-1 → main → ...
+                    current = current + 1;
+                    if (current >= altCount) {
+                      current = -1;
+                    }
+                    showCurrent();
+                  }
+                }
+
+                mainWrapper.addEventListener('click', onImageClick);
+
+                for (var i = 0; i < altCount; i++) {
+                  document.getElementById('profile-alt-img-' + i).addEventListener('click', onImageClick);
+                }
+              })();
+            </script>
+          {% endif %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
