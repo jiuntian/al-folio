@@ -6,7 +6,8 @@ subtitle: School of Electrical and Electronic Engineering, NTU. jiuntian@gmail.c
 
 profile:
   align: right
-  image: pic2.png
+  image: pic10.jpg
+#  image: pic2.png
   image_circular: false # crops the image to make it circular
   alt_image_list: # optional: list of images shown after clicking profile image 5 times
     - pic3.jpg
@@ -41,7 +42,7 @@ My research focuses on computer vision and deep learning, with a specializing in
 - **Exocentric to Egocentric Video Generation** - transforms exocentric view video to egocentric (first-person) view - [TPDF](https://www.sciencedirect.com/science/article/abs/pii/S156625352500346X), [DRSA](https://ieeexplore.ieee.org/document/11002602), [ARPE](https://www.sciencedirect.com/science/article/abs/pii/S0925231225025895), [PCSE](https://www.sciencedirect.com/science/article/abs/pii/S1566253525011790)
 - **Deep Hashing-based Image Retrieval** - [OrthoHash (NeurIPS'21)](https://github.com/kamwoh/orthohash/), [SDC](https://proceedings.bmvc2023.org/53/)
 
-I am currently seeking **internship and full-time opportunities in Singapore**. Please feel free to reach out directly or view my CV [here](/cv.pdf).
+I am currently open to **internship and full-time opportunities in Singapore**. Please feel free to reach out directly or view my CV [here](/cv.pdf).
 
 <!-- Before I start my undergraduate studies, I am interested in programming, electronics, 3D printing, and interplay between them. I likes to make some small automation projects that make my life easier. -->
 
