@@ -31,7 +31,12 @@ layout: default
           {% if page.profile.alt_image_list and page.profile.alt_image_list.size > 0 %}
             {% assign has_alt_images = true %}
           {% endif %}
-          <div id="profile-img-main"{% if has_alt_images %} style="cursor: pointer;"{% endif %}>
+          <div
+            id="profile-img-main"
+            {% if has_alt_images %}
+              style="cursor: pointer;"
+            {% endif %}
+          >
             {%
               include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
               cache_bust=true
@@ -43,7 +48,7 @@ layout: default
               <div id="profile-alt-img-{{ forloop.index0 }}" style="display: none; cursor: pointer;">
                 {%
                   include figure.liquid loading="lazy" path=alt_image_path class=profile_image_class sizes=sizes alt=alt_img
-                  cache_bust=true
+                  cache_bust=true defer_src=true
                 %}
               </div>
             {% endfor %}
@@ -55,10 +60,29 @@ layout: default
                 var current = -1;
                 var mainWrapper = document.getElementById('profile-img-main');
 
+                // Alt images render with data-src/data-srcset so their URLs are
+                // never in the crawlable HTML (kept out of Google Images). Promote
+                // them to real src/srcset the first time an alt image is revealed.
+                function hydrate(el) {
+                  var img = el.querySelector('img[data-src]');
+                  if (img) {
+                    img.setAttribute('src', img.getAttribute('data-src'));
+                    img.removeAttribute('data-src');
+                  }
+                  var sources = el.querySelectorAll('source[data-srcset]');
+                  for (var k = 0; k < sources.length; k++) {
+                    sources[k].setAttribute('srcset', sources[k].getAttribute('data-srcset'));
+                    sources[k].removeAttribute('data-srcset');
+                  }
+                }
+
                 function showCurrent() {
                   mainWrapper.style.display = current === -1 ? '' : 'none';
                   for (var j = 0; j < altCount; j++) {
                     var el = document.getElementById('profile-alt-img-' + j);
+                    if (j === current) {
+                      hydrate(el);
+                    }
                     el.style.display = j === current ? '' : 'none';
                   }
                 }

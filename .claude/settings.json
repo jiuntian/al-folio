@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm outdated *)",
+      "Bash(npm ls *)",
+      "Bash(bundle outdated *)",
+      "Bash(npm install *)",
+      "Bash(npm update *)",
+      "Bash(npx prettier *)",
+      "Bash(git ls-remote *)",
+      "Bash(bundle config *)",
+      "Read(//opt/homebrew/lib/ruby/gems/3.3.0/cache/bundler/git/**)",
+      "Read(//opt/homebrew/lib/ruby/gems/3.3.0/bundler/gems/**)",
+      "Bash(cd \"/Users/jiuntian/Documents/Code and Data/al-folio\" && rm -f Gemfile.lock.bak && echo \"===Gemfile.lock diff summary===\" && git diff --stat Gemfile.lock)",
+      "Bash(env -u GIT_CONFIG_COUNT -u GIT_CONFIG_KEY_0 -u GIT_CONFIG_VALUE_0 bundle exec jekyll build)"
+    ],
+    "additionalDirectories": [
+      "/Users/jiuntian/Documents/Code and Data/al-folio"
+    ]
+  }
+}

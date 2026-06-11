@@ -4,4 +4,11 @@ permalink: /robots.txt
 User-agent: *
 Disallow:
 
+# Keep the alternate profile images (easter egg) out of Google Images;
+# only the main profile image should be searchable. Prefixes cover both the
+# originals and the generated responsive -480/-800/-1400.webp variants.
+Disallow: /assets/img/pic3
+Disallow: /assets/img/pic4
+Disallow: /assets/img/pic5
+
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml

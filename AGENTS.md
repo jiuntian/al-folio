@@ -59,6 +59,10 @@ When modifying `_config.yml`, these **must be updated together**:
 - **Project site:** `url: https://username.github.io` + `baseurl: /repo-name/`
 - **YAML errors:** Quote strings with special characters: `title: "My: Cool Site"`
 
+When modifying the profile's `alt_image_list` in `_pages/about.md`, these **must be updated together**:
+
+- **`alt_image_list` (`_pages/about.md`) ↔ `Disallow` rules (`robots.txt`):** The alternate profile images are an easter egg and must be kept out of Google Images, so only the main profile image is searchable. Whenever the `alt_image_list` changes, update `robots.txt` so every alt image has a matching `Disallow: /assets/img/<name>` rule (the prefix covers the original plus the generated responsive `-480/-800/-1400.webp` variants), and remove rules for images no longer in the list. Never add a `Disallow` rule for the main `profile.image`.
+
 ## Development Workflow
 
 - **Git & Commits:** For commit message format and Git practices, see [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md).
