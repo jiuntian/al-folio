@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-07-22'
 papers:
   h0HsHVkAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -18,26 +18,26 @@ papers:
     title: 'OneHOI: Unifying Human-Object Interaction Generation and Editing'
     year: '2026'
   h0HsHVkAAAAJ:Se3iqnhoufwC:
-    citations: 4
+    citations: 5
     title: Cascaded dynamic memory refinement and semantic alignment for exo-to-ego cross-view video generation
     year: '2025'
   h0HsHVkAAAAJ:Tyk-4Ss8FVUC:
-    citations: 69
+    citations: 71
     title: 'InteractDiffusion: Interaction control in text-to-image diffusion models'
     year: '2024'
   h0HsHVkAAAAJ:_FxGoFyzp5QC:
-    citations: 18
+    citations: 21
     title: Residual quotient learning for zero-reference low-light image enhancement
     year: '2024'
   h0HsHVkAAAAJ:qjMakFHDy7sC:
-    citations: 213
+    citations: 217
     title: 'One loss for all: Deep hashing with a single cosine similarity based learning objective'
     year: '2021'
   h0HsHVkAAAAJ:roLk4NBRz8UC:
-    citations: 6
+    citations: 7
     title: Motion-guided token prioritization and semantic degradation fusion for exo-to-ego cross-view video generation
     year: '2025'
   h0HsHVkAAAAJ:zYLM7Y9cAGgC:
-    citations: 17
+    citations: 18
     title: Unsupervised Hashing with Similarity Distribution Calibration
     year: '2023'
