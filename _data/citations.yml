@@ -1,20 +1,16 @@
 metadata:
-  last_updated: '2026-08-19'
+  last_updated: '2026-08-24'
 papers:
   h0HsHVkAAAAJ:0EnyYjriUFMC:
-    citations: 0
+    citations: 1
     title: Adaptive memory refinement and perception enhancement for exo-to-ego video generation
     year: '2025'
   h0HsHVkAAAAJ:8k81kl-MbHgC:
     citations: 0
     title: Progressive temporal compensation and semantic enhancement for Exo-to-Ego video generation
     year: '2026'
-  h0HsHVkAAAAJ:LkGwnXOMwfcC:
-    citations: 2
-    title: 'Interactedit: Zero-shot editing of human-object interactions in images'
-    year: '2025'
   h0HsHVkAAAAJ:MXK_kJrjxJIC:
-    citations: 0
+    citations: 1
     title: 'OneHOI: Unifying Human-Object Interaction Generation and Editing'
     year: '2026'
   h0HsHVkAAAAJ:Se3iqnhoufwC:
@@ -22,13 +18,17 @@ papers:
     title: Cascaded dynamic memory refinement and semantic alignment for exo-to-ego cross-view video generation
     year: '2025'
   h0HsHVkAAAAJ:Tyk-4Ss8FVUC:
-    citations: 73
+    citations: 74
     title: 'InteractDiffusion: Interaction control in text-to-image diffusion models'
     year: '2024'
   h0HsHVkAAAAJ:_FxGoFyzp5QC:
     citations: 23
     title: Residual quotient learning for zero-reference low-light image enhancement
     year: '2024'
+  h0HsHVkAAAAJ:kNdYIx-mwKoC:
+    citations: 3
+    title: Reference-free human-object interaction editing
+    year: '2026'
   h0HsHVkAAAAJ:qjMakFHDy7sC:
     citations: 218
     title: 'One loss for all: Deep hashing with a single cosine similarity based learning objective'
