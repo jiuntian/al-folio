@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-09-07'
 papers:
   h0HsHVkAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -18,7 +18,7 @@ papers:
     title: Cascaded dynamic memory refinement and semantic alignment for exo-to-ego cross-view video generation
     year: '2025'
   h0HsHVkAAAAJ:Tyk-4Ss8FVUC:
-    citations: 74
+    citations: 76
     title: 'InteractDiffusion: Interaction control in text-to-image diffusion models'
     year: '2024'
   h0HsHVkAAAAJ:_FxGoFyzp5QC:
@@ -30,7 +30,7 @@ papers:
     title: Reference-free human-object interaction editing
     year: '2026'
   h0HsHVkAAAAJ:qjMakFHDy7sC:
-    citations: 218
+    citations: 220
     title: 'One loss for all: Deep hashing with a single cosine similarity based learning objective'
     year: '2021'
   h0HsHVkAAAAJ:roLk4NBRz8UC:
