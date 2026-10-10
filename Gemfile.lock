@@ -6,6 +6,15 @@ GIT
       jekyll (>= 0.10.0)
       terser (>= 1.0.0)
 
+GIT
+  remote: https://github.com/jiuntian/al-img-tools
+  revision: c2b22d04c433dfa5d76bab77c27f762783005542
+  branch: safari-zoom-blur
+  specs:
+    al_img_tools (1.0.3)
+      jekyll (>= 3.9, < 5.0)
+      jekyll-3rd-party-libraries (~> 0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -66,9 +75,6 @@ GEM
     al_icons (1.0.0)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
-    al_img_tools (1.0.3)
-      jekyll (>= 3.9, < 5.0)
-      jekyll-3rd-party-libraries (~> 0.0.1)
     al_marimo (1.0.0)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
@@ -367,7 +373,7 @@ DEPENDENCIES
   al_folio_distill (= 1.0.3)
   al_folio_upgrade (= 1.0.3)
   al_icons (= 1.0.0)
-  al_img_tools (= 1.0.3)
+  al_img_tools (= 1.0.3)!
   al_marimo (= 1.0.0)
   al_math (= 1.0.2)
   al_newsletter (= 1.0.0)
@@ -415,7 +421,7 @@ CHECKSUMS
   al_folio_distill (1.0.3) sha256=3feb669dd669effec127e1be5385158c5f98062c510980b5c9c802227ec2c247
   al_folio_upgrade (1.0.3) sha256=434ffddb27705852eae0bcaa01a8d007e0ef65472a989d1a33ae759f910f4709
   al_icons (1.0.0) sha256=7a7b6428d18e77b039aa1ae765a3faed0ae27cb646a08c1009b145c31ca5ef2d
-  al_img_tools (1.0.3) sha256=c50dfa206bb4459925cbfc0e7d03b326e7cb1c282200d5d110b6595f4d661cf7
+  al_img_tools (1.0.3)
   al_marimo (1.0.0) sha256=bbd8ce9650c7e8a3b35cbbde8d98eba983f132647f316b3ba2a9bd8abf502434
   al_math (1.0.2) sha256=c9fa6f3e343c0d35782d77fe386461ceff7d12186d9b51e6c92bb186b3d60781
   al_newsletter (1.0.0) sha256=27c914f5fcd0c7fac51a513ab11de7123f05de7ba834206a68ddf2588ede96d3
