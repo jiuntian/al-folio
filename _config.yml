@@ -278,6 +278,8 @@ exclude:
   - _posts/2023-03-21-tables.md
   - _posts/2024-01-26-chartjs.md
   - _posts/2025-03-26-plotly.md
+  - _posts/2025-04-28-marimo.md
+  - _posts/2022-10-15-rtl.md
   - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
