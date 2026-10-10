@@ -22,9 +22,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -32,7 +32,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Hoe Jiun Tian (何俊添). I am currently final year PhD candidate in Nanyang Technological University, Singapore under supervision of [Prof Tan Yap Peng](https://vinuni.edu.vn/people/tan-yap-peng/) and [Prof Jiang Xudong](https://personal.ntu.edu.sg/exdjiang/). I earned my Bachelor’s degree in Computer Science (Artificial Intelligence) from the University of Malaya, where I conducted undergraduate research under the supervision of [Prof Chan Chee Seng](http://cs-chan.com).
+My name is Hoe Jiun Tian (何俊添). I am graduating PhD candidate from Nanyang Technological University, Singapore under supervision of [Prof Tan Yap Peng](https://vinuni.edu.vn/people/tan-yap-peng/) and [Prof Jiang Xudong](https://personal.ntu.edu.sg/exdjiang/). I earned my Bachelor’s degree in Computer Science (Artificial Intelligence) from the University of Malaya, where I conducted undergraduate research under the supervision of [Prof Chan Chee Seng](http://cs-chan.com).
 
 [//]: # (I am currently interested in image generation, diffusion models, human-object interactions.)
 [//]: # (I have authored 12 publications to date, including **3 first-author papers in top-tier venues &#40;CVPR, NeurIPS&#41;** and **six co-authored works** in prestigious journals and conferences such as **TPAMI**, TIP, BMVC, Information Fusion, and Neurocomputing. Additionally, three manuscripts are currently under review.)
